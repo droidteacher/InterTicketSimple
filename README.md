@@ -1,4 +1,4 @@
-## Movie Browser
+## InterTicket tasks
 
 Android assignment application for InterTicket.
 
