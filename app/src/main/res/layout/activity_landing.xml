@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LandingActivity">
+
+    <Button
+        android:id="@+id/btnTask1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_1"
+        app:layout_constraintBottom_toTopOf="@+id/btnTask2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/btnTask2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_2"
+        app:layout_constraintBottom_toTopOf="@+id/btnTask3"
+        app:layout_constraintEnd_toEndOf="@+id/btnTask1"
+        app:layout_constraintStart_toStartOf="@+id/btnTask1"
+        app:layout_constraintTop_toBottomOf="@+id/btnTask1" />
+
+    <Button
+        android:id="@+id/btnTask3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_3"
+        app:layout_constraintBottom_toTopOf="@+id/btnTask4"
+        app:layout_constraintEnd_toEndOf="@+id/btnTask2"
+        app:layout_constraintStart_toStartOf="@+id/btnTask2"
+        app:layout_constraintTop_toBottomOf="@+id/btnTask2" />
+
+    <Button
+        android:id="@+id/btnTask4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnTask3"
+        app:layout_constraintStart_toStartOf="@+id/btnTask3"
+        app:layout_constraintTop_toBottomOf="@+id/btnTask3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

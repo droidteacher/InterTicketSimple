@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InterTicketSimple</string>
+    <string name="empty_list">No items</string>
+    <string name="fetching_error">Fetching countries failed.</string>
+    <string name="list_of_european_countries">List of European countries</string>
+    <string name="refresh">Refresh</string>
+    <string name="task_1">Task 1</string>
+    <string name="task_2">Task 2</string>
+    <string name="task_3">Task 3</string>
+    <string name="task_4">Task 4</string>
+</resources>
